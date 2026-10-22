@@ -1,0 +1,96 @@
+﻿archived_path,original_relative_path,changes
+archive/rtl_variants/msa_dcm_fixed.v,POSIT/RTL与代码/msa_dcm_fixed.v,text normalized to UTF-8/LF
+rtl/posit_rf_16x128.v,POSIT/RTL与代码/posit_rf_16x128.v,text normalized to UTF-8/LF
+testbench/tb_cim_chip.v,POSIT/RTL与代码/tb_cim_chip.v,text normalized to UTF-8/LF
+testbench/tb_cim_chip_mnist_sparse.v,POSIT/RTL与代码/tb_cim_chip_mnist_sparse.v,text normalized to UTF-8/LF
+testbench/tb_cim_top.v,POSIT/RTL与代码/tb_cim_top.v,host paths replaced; text normalized to UTF-8/LF
+testbench/tb_cim_top_dutmacro.v,POSIT/RTL与代码/tb_cim_top_dutmacro.v,host paths replaced; text normalized to UTF-8/LF
+testbench/tb_cim_top_mnist_sparse.v,POSIT/RTL与代码/tb_cim_top_mnist_sparse.v,text normalized to UTF-8/LF
+testbench/tb_cim_top_mnist_sparse_swapaw.v,POSIT/RTL与代码/tb_cim_top_mnist_sparse_swapaw.v,text normalized to UTF-8/LF
+testbench/tb_cim_top_mnist_sparse_swapaw_datasrc.v,POSIT/RTL与代码/tb_cim_top_mnist_sparse_swapaw_datasrc.v,text normalized to UTF-8/LF
+scripts/analysis/collect_energy_summary.sh,POSIT/实验数据_图表与绘图/collect_energy_summary.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/analysis/collect_energy_summary_cleanfreq.sh,POSIT/实验数据_图表与绘图/collect_energy_summary_cleanfreq.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/analysis/collect_energy_summary_cleanfreq_swapaw.sh,POSIT/实验数据_图表与绘图/collect_energy_summary_cleanfreq_swapaw.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/analysis/run_energy_mnist_sparse_sweep_cleanfreq.sh,POSIT/实验数据_图表与绘图/run_energy_mnist_sparse_sweep_cleanfreq.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/analysis/run_energy_mnist_sparse_sweep_cleanfreq_swapaw.sh,POSIT/实验数据_图表与绘图/run_energy_mnist_sparse_sweep_cleanfreq_swapaw.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/check_chip_pnr_status.sh,POSIT/综合后端_功耗面积时序/check_chip_pnr_status.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/check_power_sessions_cleanfreq.sh,POSIT/综合后端_功耗面积时序/check_power_sessions_cleanfreq.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/clean_periods.tsv,POSIT/综合后端_功耗面积时序/clean_periods.tsv,text normalized to UTF-8/LF
+scripts/eda/collect_module_area_power.sh,POSIT/综合后端_功耗面积时序/collect_module_area_power.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/create_ndm.tcl,POSIT/综合后端_功耗面积时序/create_ndm.tcl,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/hold_eco_from_routed.tcl,POSIT/综合后端_功耗面积时序/hold_eco_from_routed.tcl,text normalized to UTF-8/LF
+scripts/eda/hold_eco_from_routed_fixed.tcl,POSIT/综合后端_功耗面积时序/hold_eco_from_routed_fixed.tcl,text normalized to UTF-8/LF
+scripts/eda/make_power_sessions_cleanfreq.sh,POSIT/综合后端_功耗面积时序/make_power_sessions_cleanfreq.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_ablation_syn.sh,POSIT/综合后端_功耗面积时序/run_ablation_syn.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_all_corners.sh,POSIT/综合后端_功耗面积时序/run_all_corners.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_batch_gls_posit_cim.sh,POSIT/综合后端_功耗面积时序/run_batch_gls_posit_cim.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_chip_sim.sh,POSIT/综合后端_功耗面积时序/run_chip_sim.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_chip_syn.sh,POSIT/综合后端_功耗面积时序/run_chip_syn.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_energy_mnist_sparse_gls.sh,POSIT/综合后端_功耗面积时序/run_energy_mnist_sparse_gls.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_energy_mnist_sparse_gls_swapaw.sh,POSIT/综合后端_功耗面积时序/run_energy_mnist_sparse_gls_swapaw.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_energy_mnist_sparse_gls_swapaw_synthdense.sh,POSIT/综合后端_功耗面积时序/run_energy_mnist_sparse_gls_swapaw_synthdense.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_energy_mnist_sparse_sweep_cleanfreq_swapaw_synthdense.sh,POSIT/综合后端_功耗面积时序/run_energy_mnist_sparse_sweep_cleanfreq_swapaw_synthdense.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_energy_primepower_all.sh,POSIT/综合后端_功耗面积时序/run_energy_primepower_all.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_energy_primepower_all_cleanfreq.sh,POSIT/综合后端_功耗面积时序/run_energy_primepower_all_cleanfreq.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_energy_primepower_all_cleanfreq_swapaw.sh,POSIT/综合后端_功耗面积时序/run_energy_primepower_all_cleanfreq_swapaw.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_energy_primepower_one.sh,POSIT/综合后端_功耗面积时序/run_energy_primepower_one.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_energy_primepower_one_swapaw.sh,POSIT/综合后端_功耗面积时序/run_energy_primepower_one_swapaw.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_energy_vcd2saif_all.sh,POSIT/综合后端_功耗面积时序/run_energy_vcd2saif_all.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_energy_vcd2saif_all_swapaw.sh,POSIT/综合后端_功耗面积时序/run_energy_vcd2saif_all_swapaw.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_hold_eco_all.sh,POSIT/综合后端_功耗面积时序/run_hold_eco_all.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_hold_eco_one.sh,POSIT/综合后端_功耗面积时序/run_hold_eco_one.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_innovus_ablation_core_fixed_ocv.tcl,POSIT/综合后端_功耗面积时序/run_innovus_ablation_core_fixed_ocv.tcl,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_innovus_ablation_core_fixed_si.tcl,POSIT/综合后端_功耗面积时序/run_innovus_ablation_core_fixed_si.tcl,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_innovus_ablation_core_stable_overnight.tcl,POSIT/综合后端_功耗面积时序/run_innovus_ablation_core_stable_overnight.tcl,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_innovus_ablation_core_v2.tcl,POSIT/综合后端_功耗面积时序/run_innovus_ablation_core_v2.tcl,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_innovus_ablation_hier_fixed.sh,POSIT/综合后端_功耗面积时序/run_innovus_ablation_hier_fixed.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_innovus_ablation_v2.sh,POSIT/综合后端_功耗面积时序/run_innovus_ablation_v2.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_innovus_chip.sh,POSIT/综合后端_功耗面积时序/run_innovus_chip.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_innovus_chip_core.tcl,POSIT/综合后端_功耗面积时序/run_innovus_chip_core.tcl,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_ndm_gen.sh,POSIT/综合后端_功耗面积时序/run_ndm_gen.sh,text normalized to UTF-8/LF
+scripts/eda/run_sim_gls_fixed.sh,POSIT/综合后端_功耗面积时序/run_sim_gls_fixed.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_sim_pr_gls.sh,POSIT/综合后端_功耗面积时序/run_sim_pr_gls.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_sim_pr_gls_fixed_nopwr.sh,POSIT/综合后端_功耗面积时序/run_sim_pr_gls_fixed_nopwr.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_swapaw_energy_full_flow.sh,POSIT/综合后端_功耗面积时序/run_swapaw_energy_full_flow.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_swapaw_synthdense_energy_full_flow.sh,POSIT/综合后端_功耗面积时序/run_swapaw_synthdense_energy_full_flow.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_syn_gls.sh,POSIT/综合后端_功耗面积时序/run_syn_gls.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/run_syn_gls_all.sh,POSIT/综合后端_功耗面积时序/run_syn_gls_all.sh,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/syn.tcl,POSIT/综合后端_功耗面积时序/syn.tcl,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/syn_abl_dec.tcl,POSIT/综合后端_功耗面积时序/syn_abl_dec.tcl,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/syn_abl_mf.tcl,POSIT/综合后端_功耗面积时序/syn_abl_mf.tcl,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/syn_abl_mult.tcl,POSIT/综合后端_功耗面积时序/syn_abl_mult.tcl,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/syn_chip.tcl,POSIT/综合后端_功耗面积时序/syn_chip.tcl,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/syn_chip_fixed.tcl,POSIT/综合后端_功耗面积时序/syn_chip_fixed.tcl,host paths replaced; text normalized to UTF-8/LF
+scripts/eda/syn_chip_fixed_v2.tcl,POSIT/综合后端_功耗面积时序/syn_chip_fixed_v2.tcl,host paths replaced; text normalized to UTF-8/LF
+rtl/a2c_pd.v,rtl/a2c_pd.v,text normalized to UTF-8/LF
+archive/rtl_variants/a2c_pd__from_毕设__20260622.v,rtl/a2c_pd__from_毕设__20260622.v,text normalized to UTF-8/LF
+rtl/act_lut_setup.v,rtl/act_lut_setup.v,text normalized to UTF-8/LF
+rtl/adder_tree.v,rtl/adder_tree.v,text normalized to UTF-8/LF
+rtl/encode_collect.v,rtl/encode_collect.v,text normalized to UTF-8/LF
+archive/rtl_variants/encode_collect__from_毕设__20260622.v,rtl/encode_collect__from_毕设__20260622.v,text normalized to UTF-8/LF
+rtl/exponent_adder.v,rtl/exponent_adder.v,text normalized to UTF-8/LF
+rtl/msa_dcm.v,rtl/msa_dcm.v,text normalized to UTF-8/LF
+archive/rtl_variants/msa_dcm__from_毕设__20260622.v,rtl/msa_dcm__from_毕设__20260622.v,text normalized to UTF-8/LF
+rtl/posit_cim_storage_dp.v,rtl/posit_cim_storage_dp.v,text normalized to UTF-8/LF
+archive/rtl_variants/posit_cim_storage_dp__from_毕设__20260622.v,rtl/posit_cim_storage_dp__from_毕设__20260622.v,text normalized to UTF-8/LF
+rtl/posit_encoder.v,rtl/posit_encoder.v,text normalized to UTF-8/LF
+rtl/tc_bwc_mf.v,rtl/tc_bwc_mf.v,text normalized to UTF-8/LF
+rtl/weight_encode.v,rtl/weight_encode.v,text normalized to UTF-8/LF
+archive/rtl_variants/weight_encode__from_毕设__20260622.v,rtl/weight_encode__from_毕设__20260622.v,text normalized to UTF-8/LF
+scripts/analysis/extract_favorable_evidence.py,POSIT/实验数据_图表与绘图/extract_favorable_evidence.py,text normalized to UTF-8/LF
+scripts/analysis/extract_sparsity_trends.py,POSIT/实验数据_图表与绘图/extract_sparsity_trends.py,host paths replaced; text normalized to UTF-8/LF
+scripts/analysis/plot_sparsity_evidence_v6.py,POSIT/实验数据_图表与绘图/plot_sparsity_evidence_v6.py,host paths replaced; text normalized to UTF-8/LF
+scripts/analysis/visualize_deep_module_area_fixed_v3.py,POSIT/实验数据_图表与绘图/visualize_deep_module_area_fixed_v3.py,text normalized to UTF-8/LF
+scripts/analysis/visualize_energy_summary.py,POSIT/实验数据_图表与绘图/visualize_energy_summary.py,text normalized to UTF-8/LF
+docs/figures/Arch.png,figure/Arch.png,unchanged image bytes
+docs/figures/weight_encoder.png,figure/weight_encoder.png,unchanged image bytes
+docs/figures/MF.png,figure/MF.png,unchanged image bytes
+docs/figures/ppt_normal_shift2.png,figure/ppt_normal_shift2.png,unchanged image bytes
+docs/figures/ppt_booth3.png,figure/ppt_booth3.png,unchanged image bytes
+docs/figures/backend.png,figure/backend.png,unchanged image bytes
+docs/figures/ablation.png,figure/ablation.png,unchanged image bytes
+docs/figures/cycle_skip.png,figure/cycle_skip.png,unchanged image bytes
+docs/figures/Sparsity_overall.png,figure/Sparsity_overall.png,unchanged image bytes
+docs/figures/Sparsity_slopepe.png,figure/Sparsity_slopepe.png,unchanged image bytes
+docs/figures/area_breakdown.png,figure/area_breakdown.png,unchanged image bytes
+docs/figures/power_breakdown.png,figure/power_breakdown.png,unchanged image bytes

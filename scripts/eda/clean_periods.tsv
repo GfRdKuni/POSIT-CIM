@@ -1,0 +1,8 @@
+# key	tag	design_name	clean_period_ns	note
+# Fill this table after PT all-RC/Fmax sweep.
+# clean_period_ns should be the timing-clean operating period used for this design.
+# Example values below are placeholders based on earlier sweep intuition; adjust to your final PT-clean results.
+top_hier	tt_0p90v_0p90v_25c_hier	cim_top	1.08	update_with_final_clean_period
+abl_mf	abl_mf_tt0p9v25c	cim_top_abl_mf	1.08	update_with_final_clean_period
+abl_mult	abl_mult_tt0p9v25c	cim_top_abl_mult	1.15	update_with_final_clean_period
+abl_dec	abl_dec_tt0p9v25c	cim_top_abl_dec	1.15	update_after_dec_fix

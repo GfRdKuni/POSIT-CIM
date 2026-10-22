@@ -1,0 +1,51 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Python caches and generated analysis
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.matplotlib/
+results/
+outputs/
+logs/
+tmp/
+
+# EDA runs and generated artifacts
+simv
+simv.daidir/
+csrc/
+work/
+*.log
+*.vcd
+*.vpd
+*.fsdb
+*.saif
+*.sdf
+*.spef
+*.ddc
+*.enc
+*.enc.dat/
+*.gds
+*.oas
+
+# Licensed technology data and local inputs
+pdk/
+licensed_pdk/
+testdata/
+*.db
+*.lib
+*.lef
+*.tlef
+*.ndm
+*.mw
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
