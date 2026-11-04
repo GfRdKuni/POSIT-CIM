@@ -10,4 +10,7 @@
 
 日志可由`python3 scripts/verify_modules.py --output-dir build/modules`保留。验证限默认8位×16路、串行事务；busy期间持续valid、提前ready、活动中复位及其他参数没有覆盖。A2C-PD、MSA-DCM、完整POSIT数值符合性和论文能效尚未完成独立回归。缺失完整系统与授权EDA环境仍见[复现状态](reproduction-status.md)。
 
-修订日志（2026-11-04）：增加可移植模块测试、独立参考和负向防线、结构脚本、CI与复现入口；保留所有历史RTL变体、论文报告值、署名与无再许可授权状态。远端CI需以实际推送SHA的运行结果记录，不能由本地通过推断。
+修订日志（2026-11-04）：增加可移植模块测试、独立参考和负向防线、结构脚本、CI与复现入口；保留所有历史RTL变体、论文报告值、署名与无再许可授权状态。
+
+代码提交`ed66dedac34ee122d27d9108f8ef355cce582b9c`已推送main，
+[远端CI41765701748](https://github.com/GfRdKuni/POSIT-CIM/actions/runs/41765701748)通过模块仿真和结构检查。本次后续文档更新不构成新的硬件结果。
