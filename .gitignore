@@ -17,6 +17,8 @@ logs/
 tmp/
 
 # EDA runs and generated artifacts
+build/
+*.vvp
 simv
 simv.daidir/
 csrc/

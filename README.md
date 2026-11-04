@@ -30,6 +30,24 @@ SRAM-based digital computing-in-memory with POSIT arithmetic.
 
 论文报告：16 核系统完成多工艺角逻辑综合与门级仿真；单个运算核进一步做后端与功耗评估。论文摘要给出的单核能效为 POSIT⟨16,2⟩ **0.07965 TFLOPS/W**、POSIT⟨8,2⟩ **0.1491 TFLOPS/W**。这些是论文中的历史报告值，本次归档未重跑实验，也未独立验证上述数值。
 
+## 可直接运行的模块检查
+
+安装 Python 3.11+、Icarus Verilog 11+（Ubuntu 可运行
+`sudo apt-get install iverilog yosys`），然后在仓库根目录执行：
+
+```sh
+python3 scripts/verify_modules.py
+yosys -Q -T -s scripts/check_modules.ys
+```
+
+前者用独立整数参考检查16路有符号指数寻大、差值和8位模加法，各512组，
+覆盖边界、采样后输入改变与输出反压；任一失配或超时返回非零。
+默认清理临时产物，`--output-dir build/modules`可保留日志和向量。
+仿真器可通过`IVERILOG`、`VVP`及可选`IVERILOG_LIBDIR`指定。
+后者只检查这两个独立模块的结构，不需要商业工具或工艺库。
+覆盖限于默认8位×16路、串行事务；不代表完整POSIT解码/乘法系统或论文实验。
+详见[本轮工程记录](docs/engineering-review.md)。
+
 ## 材料范围
 
 保留模块 RTL、测试平台、EDA 脚本、精选分析脚本和图表。个人服务器目录已在公开副本中替换为 `/path/to/...`。原始论文、答辩文件、学校流程材料、第三方论文 PDF、授权工艺库和商业工具均不包含在仓库中。
